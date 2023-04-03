@@ -45,7 +45,7 @@ handleClick(event){
     case 'Clear': {
  
       // if it's the Clears sign, just clean our
-      // question and answer in the state
+      // question and answer in the state 
       this.setState({ question: '', answer: '' });
       break;
     }
